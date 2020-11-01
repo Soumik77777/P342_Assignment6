@@ -10,7 +10,7 @@ list_value = []
 for i in range (1, 4000):
     N= i*10
     montecarlo = monte_carlo (0,1,N,f)
-    print("For N=",N,",    Integration value=", montecarlo)    #printing result for N=10, 20, 30... 40000
+    print("For N=",N,",    Integration value=", montecarlo)    #printing result for N=10, 20, 30... 39990
     list_N.append(N)
     list_value.append(montecarlo)
 
